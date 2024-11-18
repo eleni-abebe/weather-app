@@ -1,0 +1,85 @@
+*{
+    padding:0px;
+    margin:0px;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:blueviolet;
+}
+.box{
+    max-width:400px;
+    background-color: rgb(179, 107, 246);
+    color:white; 
+    padding:5px;
+    border:1px solid rgb(247, 241, 241); 
+    border-radius: 15px;
+    text-align:center;
+}
+.box h2{
+    margin:15px;
+    font-weight: bolder;
+}
+input{
+    margin:20px;
+    border-radius: 3px;
+    padding:6px;
+    width:70%; 
+    border:0px;   
+}
+button{
+    margin:15px;
+    width:100px;
+    padding:5px;
+    background-color: rgb(178, 168, 156);
+    border: 0px;
+    border-radius: 3px;
+}
+button:hover{
+    background-color: blueviolet;
+}
+#weather-icon{
+    width:200px;
+    height:200px;
+    display:none; 
+    margin-left: 60px;
+    margin-right:60px
+}
+#temp-div p{
+    font-size:50px;
+    margin-top:-30px;
+}
+#weather-info{
+    font-size :20px;
+}
+#hourly-forcast{
+    margin-top: 50px;
+    overflow-x: auto;
+    white-space: nowrap;
+    display: block;
+    flex-wrap:wrap;
+  
+}
+.hourly-item{
+    flex: 0 0 auto;
+    width:80px;
+    display:flex;
+    flex-wrap:nowrap;
+    flex-direction:row;
+    color:white;
+    margin:30px;
+  
+}
+.hourly-item img {
+    width: 30px;
+    height: 30px;
+    
+}
+
+#hourly-heading {
+    color: #fff;
+    margin-top: 10px;
+}
